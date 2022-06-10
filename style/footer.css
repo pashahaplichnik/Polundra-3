@@ -1,0 +1,33 @@
+.footer{
+    background-color: rgb(160, 146, 211);
+    height: 70px;
+    margin-top: auto; /*footer будет всегда прижат книзу*/
+    position: sticky;/*футер прилипает внизу и не скрывается*/
+    bottom: 0;/* при скролле*/
+    width: 100%;
+    margin-top: -15px;
+    z-index: 2;
+}
+    .footer_div_link_social{
+        height: 40px;
+        /* width: 300px; */
+        /* border: 2px solid black; */
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;/*содержимое блока располагается по центру по горизонтали */
+        padding-top: 10px;
+    }
+    .foter_link_social{
+        margin: 5px; /*растояние между иконками социальных сетей*/
+        transform: translateY(0px);
+        transition-duration: 0.2s;
+    }
+    .foter_link_social:hover{
+        transform: translateY(-3px);
+        transition-duration: 0.2s;
+    }
+    .img{
+        height: 40px;
+    }
+    

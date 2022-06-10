@@ -1,0 +1,150 @@
+/* Обнуление стилей */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 22;
+}
+.burger{
+    height: 30px;
+    width: 100%;
+    display: none;
+}
+    .slog{
+        background-color: rgb(219, 223, 222);
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .menu{
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        background-color: rgb(160, 146, 211);
+        width:100%;
+        height: 50px;
+        z-index: 20;
+    }
+        .menu_logo{
+            display: flex;
+            height: 50px;
+            width: 200px;
+            /* border: 2px solid black; */
+            align-items: center;
+        }
+            .menu_img{
+                width: 40px;
+                padding-left: 15px;
+                padding-top: 3px;
+                padding-right: 20px;
+                position: relative;
+                z-index: 30;
+            }
+            .menu_name_site{
+                position: relative;
+                z-index: 30;
+                font-size: 25px;
+                font-weight: 900;
+                color: rgb(248, 242, 242);
+            }
+        .menu_links{
+            height: 30px;
+            width: 300px;
+            /* border: 2px solid black; */
+            padding-top: 15px;
+        }
+            .spisok{
+                display: inline;
+                font-size: 18px;
+                font-weight: 700;
+                margin: 5px;
+            }
+            .spisok_a{
+                    text-decoration: none;
+                    color: rgb(248, 242, 242);
+                    /* background-color: rgb(248, 164, 161); */
+                }
+                .spisok_a:hover{
+                    color: rgb(196, 19, 19);
+                }
+.page{
+    position: relative;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+    
+    .container{
+        max-width: 1200px;
+        min-width: 391;
+        margin: 0 auto;
+        padding: 0 5px;
+        /* border: 2px solid black; */
+    }
+        .contacts{
+            height: 630px;
+            background-color: rgb(250, 241, 193);
+            margin-top: 10px;  
+            border: 2px solid black;  
+            overflow: hidden;
+            padding: 5px;
+        }
+        .contacts_contacts{
+            /* font-size:22px; */
+            bottom: 20px;
+            width: 150px;
+            height: 25px;
+            /* border: 2px solid black; */
+            margin: 0 auto;
+        }
+        .data{
+            height: 110px;
+            width: 230px;
+            /* border: 2px solid black; */
+            margin: 0 auto;
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+        .tel{
+            padding-bottom: 10px;
+        }
+        .tel::before{
+            content: url(../image/phone\ 24\ px.png);
+            position: relative;
+            top: 6px;
+            padding-right: 10px;
+            z-index: 1;
+        }
+        .mail{
+            padding-bottom: 10px;
+        }
+        .mail::before{
+            content: url(../image/email\ 24px.png);
+            position: relative;
+            top: 7px;
+            padding-right: 10px;
+            z-index: 1;
+        }
+        .geolocacia{
+            padding-bottom: 10px;
+        }
+        .geolocacia::before{
+            content: url(../image/gps\ 24\ px.png);
+            position: relative;
+            top: 6px;
+            padding-right: 8px;
+            z-index: 1;
+        }
+        .map{
+            height: 250px;
+            max-width: 1000px;
+            border: 2px solid black;
+            margin: 0 auto;
+            margin-top: 10px;
+            overflow: hidden;
+        }

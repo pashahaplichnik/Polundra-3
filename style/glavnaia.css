@@ -1,0 +1,75 @@
+.glavnaia{
+    height: 450px;
+    margin-top: 5px;  
+    border: 2px solid black;
+    background-color: rgb(252, 242, 190);
+    overflow: hidden;
+}
+.glavnaia_text{
+    margin: 0 auto;
+    height: 35px;
+    width: 330px;
+    /* border: 2px solid black;   */
+    overflow: hidden;
+    margin-top: 5px;
+    text-align: center;
+}
+.xatanga{
+    margin: 0 auto;
+    height: 35px;
+    width: 330px;
+    /* border: 2px solid black;   */
+    overflow: hidden;
+    text-align: center;
+}
+.container2{
+    max-width: 400px;
+    height: 310px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.slider{
+    width: 360px;
+    height: 240px;
+    border: 2px solid rgb(241, 28, 28);
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.slider_line{
+    height: 240px;
+    width: 960px;
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: all ease 1.5s;
+}
+.img_size{
+    height: 240px;
+}
+.buttons{
+    /* border: 2px solid black; */
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.prev{
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+}
+.prev:hover{
+    background-color: rgb(101, 190, 241);
+}
+.next{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
+.next:hover{
+    background-color: rgb(101, 190, 241);
+}

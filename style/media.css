@@ -1,0 +1,82 @@
+
+@media(max-width:499px){
+    .menu_links{
+        display: block;
+        position: fixed;
+        background-color: rgb(160, 146, 211);
+        width: 35%;
+        height: 23%;
+        border: none;
+        padding-top: 70px;
+        right: -100%;
+        transition: all 0.5s ease 0s;
+    }
+    .active{
+        display: block;
+        right: 0px ;
+        transition: all 0.5s ease 0s;
+    }
+    .burger{
+        display: block;
+        position: fixed;
+        height: 30px;
+        width: 30px;
+        /* border: 2px solid black; */
+        top: 25px;
+        right: 15px;
+        z-index: 30;
+    }
+    .burger_poloski:before,
+    .burger_poloski:after{
+        content: "";
+        background-color: rgb(253, 250, 250);
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        right: 0px;
+    }
+    .burger_poloski:before{
+        top: 7px;
+        transition: all 0.3s ease 0s;
+    }
+    .burger_poloski.rotate:before{
+        top: 18px;
+        transform: rotate(45deg);
+        transition: all 0.3s ease 0s;
+    }
+    .burger_poloski:after{
+        bottom: 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .burger_poloski.rotate:after{
+        bottom: 10px;
+        transform: rotate(-45deg);
+        transition: all 0.3s ease 0s;
+    }
+    .poloskaSpan{
+        width: 30px;
+        position: absolute;
+        background-color: rgb(253, 250, 250);
+        height: 2px;
+        top: 17px;
+        right: 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .poloskaSpan.ischezaet{
+        transform: scale(0);
+        transition: all 0.3s ease 0s;
+    }
+    .spisok{
+        display: block;
+        margin: 0px 0px 20px 0px;
+        padding: 0px 0px 0px 10px;
+        font-size: 20px ;
+    }
+    .map{
+        width: 95%;
+        height: 40%;
+    }
+    .contacts{
+        height: 390px;
+    }
+}   
